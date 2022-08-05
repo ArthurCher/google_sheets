@@ -1,0 +1,183 @@
+body {
+
+}
+
+aside {
+    display: block;
+    float: left;
+    width: 20%;
+    height: 100vh;
+    padding: 2%;
+    color: darkslategrey;
+    border-right: 5px solid black;
+}
+
+aside ul {
+    list-style: none;
+    margin-top: 20px;
+}
+aside ul li {
+    color: darkslategrey;
+    display: block;
+    transition: transform .6s ease;
+    margin-left: -25px;
+}
+
+aside a {
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: darkorange;
+    text-decoration: none;
+}
+
+aside ul li:hover {
+    transform: scale(1.05);
+}
+
+main {
+    float: left;
+    margin: 2%;
+    color: darkslategrey;
+    width: 75%;
+}
+
+.content {
+    height: 750px;
+    overflow:auto;
+}
+
+table.result {
+    background: white;
+}
+
+table.result td {
+    border: 2px solid aliceblue;
+    padding: 5px 10px 5px 10px;
+    width: auto;
+}
+
+a.serp_url {
+    color: darkslategrey;
+}
+
+a.serp_url:hover {
+    color: darkorange;
+    text-decoration: none;
+}
+
+img.logo {
+    margin-top: -36px;
+    margin-left: -30px;
+}
+
+div.traf_graf {
+    width: 600px;
+}
+
+h6.traf_graf {
+    width: 600px;
+}
+
+img.vis_graf {
+    width: 100%;
+    margin-left: -80px;
+}
+
+div.dataframe {
+    width: 500px;
+    margin-left: 700px;
+    margin-top: -507px;
+}
+
+table.dataframe {
+    background: white;
+    font-size: 75%;
+}
+
+table.dataframe td {
+    border: 2px solid aliceblue;
+    padding: 5px 10px 5px 10px;
+    width: auto;
+}
+
+table.dataframe thead {
+    border: 2px solid aliceblue;
+    padding: 5px 10px 5px 10px;
+    width: auto;
+}
+
+table.dataframe th {
+    border: 2px solid aliceblue;
+    padding: 5px 10px 5px 10px;
+    width: auto;
+}
+
+h6.dataframe {
+    padding-bottom: 24px;
+}
+
+div.result_traf {
+    padding-top: 80px;
+}
+
+main a {
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: darkorange;
+    text-decoration: none;
+}
+
+div.result {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed darkslategrey;
+}
+
+div.low_path {
+    margin-bottom: 20px;
+}
+
+div.table_vis {
+    width: 500px;
+    margin-left: 725px;
+    margin-top: -530px;
+}
+
+div.vis_graf {
+    width: 800px;
+}
+
+div.get_result {
+    padding-top: 150px;
+}
+
+div.data {
+    padding-top: 100px;
+}
+
+main ul {
+    list-style: none;
+    margin-top: 20px;
+}
+main ul li {
+    color: darkslategrey;
+    display: block;
+    transition: transform .6s ease;
+    margin-left: -25px;
+}
+
+div.detail {
+    width: 550px;
+    float: left;
+}
+
+dev.goods_graph {
+    width: 700px;
+    float: right;
+}

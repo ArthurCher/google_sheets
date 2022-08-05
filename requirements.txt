@@ -1,0 +1,15 @@
+Django==3.2.2
+gspread==5.4.0
+requests==2.25.1
+bs4==0.0.1
+pandas==1.2.1
+SQLAlchemy==1.4.36
+psycopg2==2.9.3
+psycopg2-binary==2.9.3
+django-rq==2.5.1
+google-api-core==2.8.2
+google-api-python-client==2.55.0
+google-auth==2.9.1
+google-auth-httplib2==0.1.0
+google-auth-oauthlib==0.5.2
+googleapis-common-protos==1.56.4

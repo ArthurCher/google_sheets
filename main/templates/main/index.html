@@ -1,0 +1,41 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}Данные по заказам{% endblock %}
+
+{% block main_content %}
+    <div class="row g-0">
+        <div class="col h1">
+            <h1>Данные по заказам</h1>
+        </div>
+    </div>
+    <div class="row g-0 content-requests">
+        <div class="col">
+            <div class="title">Данные по заказам Google sheets</div>
+                <div class="div-hr">
+                    <hr class="title-hr">
+                    <div class="squad"></div>
+                </div>
+                <table class="dataframe">
+                        <thead>
+                            <tr style="text-align: center;">
+                                <th>№</th>
+                                <th>заказ №</th>
+                                <th>стоимость,$</th>
+                                <th>срок поставки</th>
+                                <th>стоимость в руб.</th>
+                            </tr>
+                        </thead>
+                        {% for row in data %}
+                            <tr>
+                                {% for item in row %}
+                                    <td>
+                                        {{ item }}
+                                    </td>
+                                {% endfor %}
+                            </tr>
+                        {% endfor %}
+                </table>
+        </div>
+    </div>
+{% endblock %}
